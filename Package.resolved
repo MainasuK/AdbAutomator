@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CommonOSLog",
+        "repositoryURL": "https://github.com/mainasuk/CommonOSLog.git",
+        "state": {
+          "branch": null,
+          "revision": "f817ffb27aded6767b73285dd4c7a48004f905b6",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
