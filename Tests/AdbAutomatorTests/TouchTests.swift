@@ -16,7 +16,7 @@ final class TouchTests: XCTestCase {
     }
     
     func testTap() throws {
-        _ = Adb.tab(point: CGPoint(x: 10, y: 10))
+        _ = Adb.Shell.Input.tap(point: CGPoint(x: 10, y: 10))
     }
     
 }
