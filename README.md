@@ -2,7 +2,10 @@
 
 Swift Adb command line client. 
 
+## Prepare
+
 ```shell
+$ brew cask install android-platform-tools
 $ adb --version
 Android Debug Bridge version 1.0.41
 Version 29.0.6-6198805
