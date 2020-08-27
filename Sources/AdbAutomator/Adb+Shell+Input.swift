@@ -14,4 +14,9 @@ extension Adb.Shell.Input {
         Adb.adb(arguments: ["shell", "input", "tap", "\(point.x)", "\(point.y)"])
     }
     
+    public static func text(text: String) -> Result<String, Adb.Error> {
+//        let escapedText = text.replacingOccurrences(of: " ", with: "\\ ")
+        return Adb.adb(arguments: ["shell", "input", "text", "\"\(text)\""])
+    }
+    
 }
